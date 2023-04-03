@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  height: 100vh;
+  background-color: #fafafa;
+  /* background-color: black; */
+}
+.app_headerImage{
+  width: 200px;
+  /* height: 100px; */
+}
+
+.header_app{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  object-fit: contain;
+  padding: 20px;
+  border-bottom: 2px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+
+}
+.header_logo_img{
+  width: 36vw;
+  margin-left: 10px;
+  object-fit: contain;
+  font-family: 'Oswald', sans-serif;
+}
+.app_signup{
+  display: flex;
+  flex-direction: column;
+}
+
+.app__posts{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #c9c8c8;
+}
+
+.app_rightpost{
+  margin-left: 20px;
+}
